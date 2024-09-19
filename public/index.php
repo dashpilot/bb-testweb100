@@ -7,7 +7,7 @@ if(file_exists("../app/modules/cms/Cms.php")){
 
 $router->get('/', function() use($blade){
     $data = [];
-    $data['title'] = "Hello world";
+    $data['title'] = "Hello world.";
     $data['page'] = "home";
     $blade->render("layout/page", $data);
 });
