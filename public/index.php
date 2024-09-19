@@ -1,8 +1,8 @@
 <?php
 require("../app/init.php");
 
-if(file_exists("../cms/cms.php")){
-    include("../cms/cms.php");
+if(file_exists("../app/modules/cms/Cms.php")){
+    include("../app/modules/cms/Cms.php");
 }
 
 $router->get('/', function() use($blade){
