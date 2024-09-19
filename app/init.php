@@ -1,6 +1,4 @@
 <?php
-session_start();
-
 require("lib/Router.php");
 $router = new \Bramus\Router\Router();
 

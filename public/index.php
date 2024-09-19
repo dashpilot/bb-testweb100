@@ -1,6 +1,10 @@
 <?php
 require("../app/init.php");
 
+if(file_exists("../cms/cms.php")){
+    include("../cms/cms.php");
+}
+
 $router->get('/', function() use($blade){
     $data = [];
     $data['title'] = "Hello world";
