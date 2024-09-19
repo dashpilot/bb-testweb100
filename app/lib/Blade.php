@@ -29,8 +29,8 @@ class Blade
   public function __construct()
   {
     $this->setFileExtension(".blade.php");
-    $this->setViewFolder("app/modules" . DIRECTORY_SEPARATOR);
-    $this->setCacheFolder("app/modules/cache" . DIRECTORY_SEPARATOR);
+    $this->setViewFolder("../app/modules" . DIRECTORY_SEPARATOR);
+    $this->setCacheFolder("../app/modules/cache" . DIRECTORY_SEPARATOR);
     $this->createCacheFolder();
     $this->setEchoFormat('$this->e(%s)');
 
