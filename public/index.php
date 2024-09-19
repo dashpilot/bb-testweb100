@@ -1,4 +1,12 @@
 <?php
+require("../app/init.php");
 
-// test
-echo "Hello world!<br />Testing the webhook.<br />Checking if it overrwrites file";
+$router->get('/', function(){
+    echo "Hello world";
+});
+
+$router->get('/about', function(){
+    echo "This is the about page";
+});
+
+$router->run();
