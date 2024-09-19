@@ -1,9 +1,6 @@
 # Enable the rewrite engine
 RewriteEngine On
 
-# Ensure that the base directory is /api/
-RewriteBase /admin/
-
 # Existing rules for handling requests
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
