@@ -17,6 +17,12 @@
     padding-right: 10px;
 }
     </style>
+
+
+
+@include('cms.cms')
+
+
 </head>
 <body>
   

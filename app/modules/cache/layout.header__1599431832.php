@@ -17,6 +17,12 @@
     padding-right: 10px;
 }
     </style>
+
+
+
+<?php include $this->prepare('cms.cms') ?>
+
+
 </head>
 <body>
   
